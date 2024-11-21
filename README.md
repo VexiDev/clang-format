@@ -2,9 +2,9 @@
 
 > [!Note]
 > For clang-format **19.x.x**
-> <br>Tested on `19.3.1` with [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
+> <br>Tested on `19.1.3` with [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
 
-```
+```yaml
 # Base
 BasedOnStyle: Google
 ColumnLimit: 119
