@@ -5,7 +5,7 @@
 > <br>Tested on `19.1.3` with [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
 
 ```yaml
-# Base
+# Core
 BasedOnStyle: Google
 ColumnLimit: 119
 Standard: Auto
@@ -55,7 +55,7 @@ PPIndentWidth: 4
 TabWidth: 4
 
 # Alignemnt options
-AlignAfterOpenBracket: BlockIndent
+AlignAfterOpenBracket: BlockIndent # Align|DontAlign|AlwaysBreak|
 AlignArrayOfStructures: Left
 AlignConsecutiveAssignments:
   Enabled: false
@@ -78,7 +78,7 @@ AllowAllParametersOfDeclarationOnNextLine: false
 
 # Single line rules
 BinPackArguments: false
-BinPackParameters: false # Boolean? Not AlwaysOnePerLine?
+BinPackParameters: true # Boolean? Not AlwaysOnePerLine?
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseExpressionOnASingleLine: true
 AllowShortCaseLabelsOnASingleLine: true
