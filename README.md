@@ -2,7 +2,7 @@
 
 > [!Note]
 > For clang-format **19.x.x**
-> Tested on clang-format `19.3.1` from `stevearc/conform.nvim`
+> <br>Tested on clang-format `19.3.1` from `stevearc/conform.nvim`
 
 ```
 # Base
